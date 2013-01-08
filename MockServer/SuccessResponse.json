@@ -1,0 +1,77 @@
+{
+  "data": {
+    "status": 200,
+    "message": "OK",
+    "text": "Succesvol ingelogd.",
+    "user": {
+      "cu_id": 1,
+      "cu_status_id": 0,
+      "cu_company_id": 1,
+      "cu_function_id": 1,
+      "cu_department_id": 1,
+      "cu_email": "info@sanmax.be",
+      "cu_first_name": "First",
+      "cu_last_name": "Last",
+      "cu_phone_intern": "",
+      "cu_mobile_phone": "",
+      "cu_street": "",
+      "cu_number": "",
+      "cu_bus": "",
+      "cu_postalcode": "",
+      "cu_location": "",
+      "cu_country": "",
+      "cu_birthdate": "0000-00-00",
+      "cu_picture": "",
+      "cu_comment": "",
+      "cu_ison_reminder_email": 0,
+      "cu_ison_reminder_app": 0,
+      "cu_ison_reminder_web": 0,
+      "cu_first_use": 1
+    },
+    "company": {
+      "c_id": 1,
+      "c_name": "Sanmax",
+      "c_phone": "089 68 06 39",
+      "c_fax": "089 856 929",
+      "c_website": "www.sanmax.be"
+    },
+    "function": {
+      "cf_id": 1,
+      "cf_name": "Developer"
+    },
+    "department": {
+      "cd_id": 1,
+      "cd_name": "Development"
+    },
+    "statuses": [
+      {
+        "cs_id": 3,
+        "cs_company_id": 1,
+        "cs_name": "Bezet",
+        "cs_default": 1,
+        "cs_image": ""
+      },
+      {
+        "cs_id": 1,
+        "cs_company_id": 1,
+        "cs_name": "Online",
+        "cs_default": 0,
+        "cs_image": ""
+      },
+      {
+        "cs_id": 2,
+        "cs_company_id": 1,
+        "cs_name": "Offline",
+        "cs_default": 0,
+        "cs_image": ""
+      },
+      {
+        "cs_id": 4,
+        "cs_company_id": 1,
+        "cs_name": "Afwezig",
+        "cs_default": 0,
+        "cs_image": ""
+      }
+    ]
+  }
+}
